@@ -1,2 +1,2 @@
-# Exerc-cio02-JS
+# Exercício02-JS
 Atividade de Java Script.
