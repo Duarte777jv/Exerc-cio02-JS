@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Triagem de Astronautas - Missão Marte 2030</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Missão Marte 2030</h1>
+        <p class="subtitle">Sistema de Pré-Triagem de Astronautas</p>
+
+        <div class="form-group">
+            <label for="idade">Idade (25-45 anos):</label>
+            <input type="number" id="idade" placeholder="Digite sua idade" min="0" max="100">
+        </div>
+
+        <div class="form-group">
+            <label for="horasVoo">Horas de Voo (mínimo 1000h):</label>
+            <input type="number" id="horasVoo" placeholder="Digite as horas de voo" min="0">
+        </div>
+
+        <div class="form-group">
+            <label for="nota">Nota Psicológica (0-10):</label>
+            <input type="number" id="nota" placeholder="Digite sua nota" min="0" max="10" step="0.1">
+        </div>
+
+        <button onclick="avaliarCandidato()">Avaliar Candidato</button>
+
+        <div id="resultado" class="resultado">
+            Aguardando avaliação...
+        </div>
+
+        <div class="info-box">
+            <h3>📋 Critérios de Aprovação:</h3>
+            <ul>
+                <li>✓ Idade entre 25 e 45 anos (inclusive)</li>
+                <li>✓ Mínimo de 1000 horas de voo</li>
+                <li>✓ Nota psicológica maior ou igual a 8</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+        Desenvolvido por Jota
+
+        </div>
+    </div>
+
+</body>
+</html>
